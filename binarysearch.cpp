@@ -1,3 +1,21 @@
+/*
+
+Binary Search:
+
+  Paradigm: Divide and Conquer
+
+  Complexities
+    Time: O(log n)
+    Space: O(1)
+
+  Pros:
+    1. Perfect for an already sorted list.
+    2. Growth is only logarithmic, best case.
+  Cons:
+    1. List must be sorted, lmao.
+    
+*/
+
 #include <iostream>
 #include <array>
 
