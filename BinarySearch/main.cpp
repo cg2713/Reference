@@ -2,7 +2,7 @@
 #include "myClass.hpp"
 #include "myClass.cpp"
 /*
-File : mail.cpp
+File : main.cpp
 Description : this is just the main file for the interactivity of myClass
 witch incorporates the binary search
 
