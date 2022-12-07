@@ -1,7 +1,12 @@
 #include <iostream>
 #include "myClass.hpp"
 #include "myClass.cpp"
+/*
+File : mail.cpp
+Description : this is just the main file for the interactivity of myClass
+witch incorporates the binary search
 
+*/
 using namespace std;
 
 int main(int argc, char * argv[]){

@@ -1,6 +1,12 @@
 #ifndef myClass_hpp
 #define myClass_hpp
 
+/*
+File : myClass.hpp
+Description : this is the file with the declaration of the class
+
+*/
+
 class myClass {
 	public:
 		int size;

@@ -1,19 +1,23 @@
 #include "myClass.hpp"
+/*
+File : myClass.cpp
+Description : this is the file that contains all the function definition of myClass
 
+*/
 
-myClass::myClass(int s = 10){
+myClass::myClass(int s = 10){ //constructs myClass 
 	size = s;
 	array = (int*)malloc(sizeof(int)*s);
 	fillarray(array);
 }
 
-void myClass::fillarray(int *a){
+void myClass::fillarray(int *a){ // fill array with numbers in ascending order
 	for(int i = 1; i <= size; i++){
 		a[i-1] = i;
 	}
 }
 
-int myClass::binarySearch(int* arr,int target,size_t low,size_t high){
+int myClass::binarySearch(int* arr,int target,size_t low,size_t high){ // Binary search reference https://www.geeksforgeeks.org/binary-search/
 	if(low > high)
 		return -1;
 	else{
